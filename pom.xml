@@ -77,6 +77,9 @@
 	            <groupId>org.sonarsource.scanner.maven</groupId>
 	            <artifactId>sonar-maven-plugin</artifactId>
 	            <version>3.11.0</version>
+	            <configuration>
+	                <release>21</release>
+	            </configuration>	            
 	        </plugin>			
 		</plugins>	
 	</build>
